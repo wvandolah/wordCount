@@ -10,7 +10,7 @@ public class Main {
         Words text = new Words();
         String allWords = text.getWords();
         System.out.println("before regexp: " + allWords);
-        String cleanText = allWords.replaceAll("[\\.\\?\\!\\,\\;\\:\\{\\}\\(\\)\\']", "");
+        String cleanText = allWords.replaceAll("[\\.\\?\\!\\,\\;\\:\\{\\}\\(\\)\\']", "").toLowerCase();
 
         System.out.println("after regex: " + cleanText);
         String[] words = cleanText.split(" ");
@@ -24,7 +24,16 @@ public class Main {
         }
 
         for(String w : hashMap.keySet()){
-            System.out.println(hashMap.get(w));
+            System.out.println("count: " + hashMap.get(w) + " Word: " + w);
         }
+
+        ArrayList<HashMap.Entry<String, Integer>> sortedMap = new ArrayList<HashMap.Entry<String, Integer>>();
+        sortedMap.addAll(hashMap.entrySet());
+        Collections.sort(sortedMap, new Comparator<HashMap.Entry<String, Integer>>(){
+            public int compare(HashMap.Entry<String, Integer> o1, HashMap.Entry<String, Integer> o2){
+                return (o2.getValue().compareTo(o1.getValue()));
+            }
+        });
+        System.out.println(sortedMap);
     }
 }
