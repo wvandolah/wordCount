@@ -34,6 +34,11 @@ public class Main {
                 return (o2.getValue().compareTo(o1.getValue()));
             }
         });
-        System.out.println(sortedMap);
+        System.out.println(sortedMap.get(0));
+
+        for (int i = 0; i < 50 ; i++) {
+            System.out.println("Word \"" + sortedMap.get(i).getKey() + "\" is the Number " + (i + 1) +
+                    " used word. used "+ sortedMap.get(i).getValue() + " times!");
+        }
     }
 }
