@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126bdeac-536f-407e-b175-705703c49d72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordCount/com/student/wordCount/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordCount/com/student/wordCount/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/student/wordCount/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/student/wordCount/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="126bdeac-536f-407e-b175-705703c49d72" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +14,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/student/wordCount/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="397">
               <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
             </state>
           </provider>
@@ -95,7 +91,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550097362471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550097389455" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,16 +132,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550094387282</updated>
-      <workItem from="1550094388462" duration="2905000" />
+      <workItem from="1550094388462" duration="3441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2905000" />
+    <option name="totallyTimeSpent" value="3441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="71" width="1463" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -158,11 +153,11 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32929516" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,7 +203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/student/wordCount/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="397">
           <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
         </state>
       </provider>
